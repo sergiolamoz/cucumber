@@ -1,0 +1,24 @@
+{
+  "name": "cucumber3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "win": "cucumber.js.cmd --no-strict"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.1",
+    "cucumber": "^3.1.0",
+    "selenium-webdriver": "^3.4.0",
+    "tap-summary": "^3.0.2",
+    "tracer": "^0.8.9"
+  },
+  "devDependencies": {
+    "ava": "^0.21.0",
+    "ava-spec": "^1.1.0",
+    "cucumber-html-reporter": "^2.0.3"
+  }
+}
